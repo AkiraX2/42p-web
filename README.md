@@ -4,10 +4,11 @@
 
 ## TODO
 
-[] home page
-[] loading page
-[] main page
-[] crx download page
+-[x] system design
+-[ ] home page
+-[ ] loading page
+-[ ] main page
+-[ ] crx download page
 
 
 ## Build Setup

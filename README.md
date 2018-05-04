@@ -2,6 +2,14 @@
 
 > Web project for 42port.com
 
+## TODO
+
+[] home page
+[] loading page
+[] main page
+[] crx download page
+
+
 ## Build Setup
 
 ``` bash

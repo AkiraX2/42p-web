@@ -1,7 +1,7 @@
 {
   "name": "42p-web",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "Web project for 42port.com",
   "author": "MichaelDai AlanBiao",
   "private": true,
   "scripts": {

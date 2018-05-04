@@ -22,3 +22,36 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 test
 
+``` dir
+42p-web
+├── build
+│   ├── build.js
+│   ├── check-versions.js
+│   ├── logo.png
+│   ├── utils.js
+│   ├── vue-loader.conf.js
+│   ├── webpack.base.conf.js
+│   ├── webpack.dev.conf.js
+│   └── webpack.prod.conf.js
+├── config
+│   ├── dev.env.js
+│   ├── index.js
+│   └── prod.env.js
+├── index.html
+├── LICENSE
+├── node_modules
+│   └── ...
+├── package.json
+├── package-lock.json
+├── README.md
+├── src
+│   ├── App.vue
+│   ├── assets
+│   │   └── logo.png
+│   ├── components
+│   │   └── HelloWorld.vue
+│   ├── main.js
+│   └── router
+│       └── index.js
+└── static
+```

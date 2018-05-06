@@ -1,13 +1,12 @@
 <template>
-<div id="app">
-  <div id="header">
-    <img id="title" src="./assets/logo.png" width="200">
-  </div>
-  <div id="body">
-    
-    <router-view/>
-  </div>
-  <div id="footer">
+  <div id="app">
+    <!--     <div id="header">
+    </div> -->
+    <v-app>
+      <v-content>
+        <router-view/>
+      </v-content>
+      <!--  <div id="footer">
     <div id="footer1">
       
       <h2>Essential Links</h2>
@@ -94,63 +93,87 @@
       </ul>
     </div>
     
+  </div> -->
+      <vfooter></vfooter>
+    </v-app>
   </div>
-</div>
 </template>
 <script>
+import vfooter from '@/components/Footer'
 export default {
-name: 'App'
+  name: 'App',
+  components: {
+    vfooter
+  },
+
+  data() {
+    return {
+      msg: 'Welcome to 42port.com'
+    }
+  }
 }
+
 </script>
 <style>
 #app {
-font-family: 'Avenir', Helvetica, Arial, sans-serif;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-text-align: center;
-color: #2c3e50;
-flex: 1;
-display: flex;
-min-height: 100vh;
-flex-direction: column;
-justify-content:center;
-text-align: center;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  flex: 1;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
+
 #app #title {
   margin-top: 60px;
 }
+
 #body {
-display: flex;
-flex: 6;
-justify-content: center;
+  display: flex;
+  flex: 9;
+  justify-content: center;
 }
-#header{
-flex: 1;
+
+#header {
+  flex: 1;
 }
-#footer {
-flex: 0.5;
-display: flex;
-flex-direction: row;
-justify-content: center; 
-}
+
+
+
+
+
+
+
+
 /*#footer1 {
 flex:1;
 }
 #footer2{
 flex:1;
 }*/
-h1, h2 {
-font-weight: normal;
+
+h1,
+h2 {
+  font-weight: normal;
 }
+
 ul {
-list-style-type: none;
-padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
+
 li {
-display: inline-block;
-margin: 0 10px;
+  display: inline-block;
+  margin: 0 10px;
 }
+
 a {
-color: #42b983;
+  color: #42b983;
 }
+
 </style>

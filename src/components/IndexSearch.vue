@@ -1,21 +1,19 @@
 <template>
-  <v-container fluid fill-height text-xs-center>
-    <v-layout justify-center align-center>
-      <v-flex xs12 sm8 md6 xl4 id="search-ctrl" class="pb-5">
-        <v-flex>
-          <img height="150px" id="title" src="../assets/logo.png">
-        </v-flex>
-        <v-flex class="secondary--text mt-3 mb-3">
-          <h2> {{ msg }}
-          </h2>
-        </v-flex>
-        <v-flex class="mb-5">
-          <vsearch></vsearch>
-        </v-flex>
-        <v-flex class="pb-5">
-          <v-btn large depressed>Start Search</v-btn>
-          <v-btn large depressed>Popular Posts</v-btn>
-        </v-flex>
+  <v-container grid-list-xl text-xs-center>
+    <v-layout justify-center align-center row wrap>
+      <v-flex xs10 offset-xs1 md8 offset-md1 xl6 offset-xl1 id="search-ctrl" class="pt-5">
+        <img height="150px" id="title" src="../assets/logo.png">
+        <h2 class="secondary--text mt-3 mb-3">
+          <a href="">
+          <v-tooltip bottom color="primary">
+              <span slot="activator">Portal </span>   
+            <v-icon slot="activator" small dark color="grey">help</v-icon>
+            <span>Click to know more about Portol.</span>
+          </v-tooltip>
+          </a>
+          <span>for all the images on the Internet</span>
+        </h2>
+        <vsearch></vsearch>
       </v-flex>
     </v-layout>
   </v-container>
@@ -42,6 +40,10 @@ export default {
 h1,
 h2 {
   font-weight: normal;
+}
+
+a {
+  text-decoration: none;
 }
 
 </style>

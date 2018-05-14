@@ -2,8 +2,8 @@
   <v-toolbar app color="primary" dark dense>
     <v-toolbar-side-icon></v-toolbar-side-icon>
     <v-toolbar-title>
-      <span>42th</span>
-      <img src="../assets/icon-white.png" width="18">
+      <span>The 42th</span>
+      <img src="../assets/icon-white.png" width="18" style="margin-bottom: -2px;">
       <span>Portal</span>
     </v-toolbar-title>
     <v-menu :nudge-width="100">

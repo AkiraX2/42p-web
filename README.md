@@ -64,3 +64,9 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 │       └── index.js
 └── static
 ```
+
+## Dependency
+
+- npm
+- 
+- https://vuetifyjs.com/

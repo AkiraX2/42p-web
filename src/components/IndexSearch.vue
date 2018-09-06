@@ -1,7 +1,7 @@
 <template>
   <v-container grid-list-xl text-xs-center>
     <v-layout justify-center align-center row wrap>
-      <v-flex xs10 offset-xs1 md8 offset-md1 xl6 offset-xl1 id="search-ctrl" class="pt-5">
+      <v-flex xs10  md8  xl6 id="search-ctrl" class="pt-5">
         <img height="150px" id="title" src="../assets/logo.png">
         <h2 class="secondary--text mt-3 mb-3">
           <a href="">
